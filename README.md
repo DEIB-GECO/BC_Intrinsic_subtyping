@@ -8,6 +8,6 @@ Notice that two services are available for each signature: one is developed for 
 
 A single function, called 
 
-The code requires the path of a csv dataset, including at least one sample and having the samples in each row and all the profiled genes or other data on the columns. Notice that the columns must include at least the genes of the signature of interest, inidcated with the expected gene name, in case of aliases. 
+The code requires the path of a csv dataset, including at least one sample and having the samples in each row and all the profiled genes or other data on the columns. Notice that the columns must include at least the genes of the signature of interest, indicated with the expected gene name, in case of aliases. 
 
 Additionally to the mentioned path, the user must provide the choices concerning the sample(/s) to be processed, their normalization (RSEM or FPKM) and the gene signature to be used (limma50 or limma50_bwe). Eventually, the code processes one or all the samples based on the user choice and provides the ordered list of intrisic subtypes associated with the samples under examination.
