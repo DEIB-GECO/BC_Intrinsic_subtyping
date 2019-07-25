@@ -15,7 +15,11 @@ Here below we reported  the signature of the *mlrBCsubFun* function together wit
 
 *mlrBCsubFun(path_parameter, chosen_sample_parameter, normalization_parameter, bwe_parameter)*
 
-# path_parameter: the path of the RNA-seq gene expression dataset of interest, having samples in rows and genes in colums (limma50 genes must be present)
-# chosen_sample_parameter: Insert the row number of the sample to be processed or 0 for all the samples
-# normalization_parameter: Insert 1 for RSEM, 2 for FPKM
-# bwe_parameter=FALSE for limma50, bwe=TRUE for limma50_bwe
+**path_parameter: the path of the RNA-seq gene expression dataset of interest, having samples in rows and genes in colums (limma50 genes must be present)
+chosen_sample_parameter: Insert the row number of the sample to be processed or 0 for all the samples
+normalization_parameter: Insert 1 for RSEM, 2 for FPKM
+bwe_parameter=FALSE for limma50, bwe=TRUE for limma50_bwe**
+
+...
+source("mlrBCsubFun.R")
+mlrBCsubFun("test_set_FPKM_webService_gse96058.csv", 0, 1, FALSE)
