@@ -6,15 +6,14 @@ Each service is a classification process performed by a L1-L2-regularized multic
 
 Notice that two services are available for each signature: one is developed for RSEM RNA-Seq profiles and the other one for FPKM RNA-seq profiles. In both cases, the user needs to pass the gene expression values of the signature of interest according to the required normalization procedure (RSEM or FPKM).
 
-A single function, called *mlrBCsubFun*
+A single function, *mlrBCsubFun*, must be called to perform BRCA intrinsic subtyping according to user proper choices.
 
-The code requires the path of a csv dataset, including at least one sample and having the samples in each row and all the profiled genes or other data on the columns. Notice that the columns must include at least the genes of the signature of interest, indicated with the expected gene name, in case of aliases. 
+The code indeed requires the path of a csv dataset, including at least one sample and having the samples in each row and all the profiled genes or other data on the columns. Notice that the columns must include at least the genes of the signature of interest, indicated with the expected gene name, in case of aliases. 
+Additionally to the mentioned path, the user must provide the choices concerning the sample(/s) to be processed, their normalization (RSEM or FPKM) and the gene signature to be used (limma50 or limma50_bwe). Eventually, the code processes one or all the samples based on the parameters set by the user and provides as outcome the ordered list of intrisic subtypes associated with the samples under examination.
 
-Additionally to the mentioned path, the user must provide the choices concerning the sample(/s) to be processed, their normalization (RSEM or FPKM) and the gene signature to be used (limma50 or limma50_bwe). Eventually, the code processes one or all the samples based on the user choice and provides the ordered list of intrisic subtypes associated with the samples under examination.
+Here below we reported  the signature of the *mlrBCsubFun* function together with a brief explanation of the needed parameters. Following a couple of lines are provided as an example.
 
-Here below
-
-mlrBCsubFun(path_parameter, chosen_sample_parameter, normalization_parameter, bwe_parameter)
+*mlrBCsubFun(path_parameter, chosen_sample_parameter, normalization_parameter, bwe_parameter)*
 
 # path_parameter: the path of the RNA-seq gene expression dataset of interest, having samples in rows and genes in colums (limma50 genes must be present)
 # chosen_sample_parameter: Insert the row number of the sample to be processed or 0 for all the samples
