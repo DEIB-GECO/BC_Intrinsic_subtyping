@@ -21,6 +21,7 @@ Here below the signature of the *mlrBCsubFun* function is reported together with
 
 **bwe_parameter**:FALSE for limma50, TRUE for limma50_bwe
 
+...
 
 source("mlrBCsubFun.R")
 
