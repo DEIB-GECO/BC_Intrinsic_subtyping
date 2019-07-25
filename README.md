@@ -20,7 +20,6 @@ Here below the signature of the *mlrBCsubFun* function is reported together with
 **normalization_parameter**: Insert 0 for RSEM, 1 for FPKM
 
 **bwe_parameter**:FALSE for limma50, TRUE for limma50_bwe
-
 ...
 source("mlrBCsubFun.R")
 mlrBCsubFun("test_set_FPKM_webService_gse96058.csv", 0, 1, FALSE)
