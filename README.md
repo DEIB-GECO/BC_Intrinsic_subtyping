@@ -13,7 +13,7 @@ Here below the signature of the *mlrBCsubFun* function is reported together with
 
 *mlrBCsubFun(path_parameter, chosen_sample_parameter, normalization_parameter, bwe_parameter)*
 
-**path_parameter**: the path of the RNA-seq gene expression dataset of interest, having samples in rows and genes in columns. At least limma50_BWE or limma50 genes must be present. Notably, for GATA.AS1 dot format is mandatory (GATA-AS1 is not accepted).
+**path_parameter**: the path of the RNA-seq gene expression dataset of interest, in csv format, having samples in rows and genes in columns. At least limma50_BWE or limma50 genes must be present. ID column or other data/metadata columns are allowed. Notably, for GATA.AS1 dot format is mandatory (GATA-AS1 is not accepted).
 
 **chosen_sample_parameter**: Insert the row number of the sample to be processed or 0 to process all the samples in the table.
 
