@@ -13,7 +13,7 @@
 #Here below, we provide an example which uses a FPKM dataset as input to be processed with the limma50-based multiclass logistic regression.
 
 source("mlrBCsubFun.R")
-mlrBCsubFun("test_set_FPKM_webService_gse96058.csv", 0, 1, FALSE)
+mlrBCsubFun("test_dataset_FPKM.csv", 0, 1, FALSE)
 
 
 
