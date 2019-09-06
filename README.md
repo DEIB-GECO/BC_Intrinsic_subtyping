@@ -1,4 +1,4 @@
-# BRCA_Intrsinic_subtyping
+# BRCA_Intrinsic_subtyping
 
 Here we provide the R-code to connect to each one of the Machine Learning Web Services in charge of providing the intrinsic subtype of a breast cancer RNA-Seq profile under evaluation. The code is authenticated to the Azure Machine Learning service with an API key and uses the RCurl, rjson and sjmisc libraries to make the request and process suitably the returned JSON response. 
 
@@ -9,7 +9,7 @@ Notice that two services are available for each signature: one is developed for 
 A single function, *mlrBCsubFun*, must be called to perform BRCA intrinsic subtyping according to user proper choices.
 The function indeed requires as parameter the path of a csv dataset, including at least one sample and having the samples in each row and all the profiled genes or other data on the columns. Notice that the columns must include at least the genes of the signature of interest, indicated with the expected gene name, in case of aliases. 
 Additionally to the mentioned path, the user must provide choices concerning the sample/s to be processed, their normalization (RSEM or FPKM) and the gene signature to be used (limma50 or limma50_bwe). Eventually, the code processes one or all the samples based on the parameters set by the user and provides as outcome the intrisic subtype or an ordered list of intrisic subtypes associated with the sample/s under examination.
-Here below the signature of the *mlrBCsubFun* function is reported together with a brief explanation of the needed parameters. Following a couple of lines are provided as an example.
+Here below the signature of the *mlrBCsubFun* function is reported together with a brief explanation of the needed parameters. 
 
 *mlrBCsubFun(path_parameter, chosen_sample_parameter, normalization_parameter, bwe_parameter)*
 
@@ -21,8 +21,5 @@ Here below the signature of the *mlrBCsubFun* function is reported together with
 
 **bwe_parameter**:FALSE for limma50, TRUE for limma50_BWE
 
-...
 
-source("mlrBCsubFun.R")
-
-mlrBCsubFun("test_set_FPKM_webService_gse96058.csv", 0, 1, FALSE)
+An easy example of use is provided in *intrinsic_subtyping_rmLR.R*.
