@@ -15,10 +15,8 @@ req =  list(
       list(
         'expert_PAM50_subtypes' = "",
         'ABAT' = sample$ABAT,
-        
         'AGR2' = sample$AGR2,
         'AGR3' = sample$AGR3,
-        
         'AQP1' = sample$AQP1,
         'AR' = sample$AR,
         'ART3' = sample$ART3,
@@ -30,16 +28,12 @@ req =  list(
         'BCL11A' = sample$BCL11A,
         'BCL2' = sample$BCL2,
         'BIRC5' = sample$BIRC5,
-    
-        
         'BUB1B' = sample$BUB1B,
         'C2CD4B' = sample$C2CD4B,
         'C2orf40' = sample$C2orf40,
         'C2orf88' = sample$C2orf88,
         'C5AR2' = sample$C5AR2,
-        
         'C9orf152' = sample$C9orf152,
-        
         'CA12' = sample$CA12,
         'CAPN11' = sample$CAPN11,
         'CAPN13' = sample$CAPN13,
@@ -48,7 +42,6 @@ req =  list(
         'CBX7' = sample$CBX7,
         'CCDC170' = sample$CCDC170,
         'CCNA2' = sample$CCNA2,
-        
         'CCNB2' = sample$CCNB2,
         'CDC20' = sample$CDC20,
         'CDC25A' = sample$CDC25A,
@@ -56,25 +49,18 @@ req =  list(
         'CDCA3' = sample$CDCA3,
         'CDCA8' = sample$CDCA8,
         'CENPA' = sample$CENPA,
-        
         'CENPN' = sample$CENPN,
-        
-   
-        'CHODL' = sample$CHODL,
-
-        
+        'CHODL' = sample$CHODL,       
         'CLCN4' = sample$CLCN4,
         'CLDN19' = sample$CLDN19,
         'CLSTN2' = sample$CLSTN2,
         'CMA1' = sample$CMA1,
-       
         'CNTNAP3' = sample$CNTNAP3,
         'CT62' = sample$CT62,
         'CX3CL1' = sample$CX3CL1,
         'CXCL3' = sample$CXCL3,
         'CYP2B7P' = sample$CYP2B7P,
         'CYP4Z2P' = sample$CYP4Z2P,
-        
         'DEGS2' = sample$DEGS2,
         'DEPDC1B' = sample$DEPDC1B,
         'DLK2' = sample$DLK2,
@@ -83,26 +69,19 @@ req =  list(
         'DSN1' = sample$DSN1,
         'DUSP7' = sample$DUSP7,
         'EDN3' = sample$EDN3,
-        'ELOVL2' = sample$ELOVL2,
-        
-       
+        'ELOVL2' = sample$ELOVL2,      
         'EPHB1' = sample$EPHB1,
         'EPS15L1' = sample$EPS15L1,
         'ERBB2' = sample$ERBB2,
         'ERBB4' = sample$ERBB4,
-        
         'ESPL1' = sample$ESPL1,
         'ESR1' = sample$ESR1,
         'EXO1' = sample$EXO1,
-       
         'FAM110D' = sample$FAM110D,
-      
-        
         'FAM19A3' = sample$FAM19A3,
         'FAM64A' = sample$FAM64A,
         'FAM72B' = sample$FAM72B,
         'FAM72D' = sample$FAM72D,
-       
         'FANCA' = sample$FANCA,
         'FAT2' = sample$FAT2,
         'FBP1' = sample$FBP1,
@@ -118,42 +97,29 @@ req =  list(
         'G6PD' = sample$G6PD,
         'GABRP' = sample$GABRP,
         'GALNT7' = sample$GALNT7,
-      
         'GATA3-AS1' = sample$GATA3.AS1,
         'GDF5' = sample$GDF5,
         'GFAP' = sample$GFAP,
         'GFRA1' = sample$GFRA1,
         'GGCT' = sample$GGCT,
-       
         'GINS2' = sample$GINS2,
         'GLI1' = sample$GLI1,
         'GPM6B' = sample$GPM6B,
-        
         'GPR160' = sample$GPR160,
         'GRB7' = sample$GRB7,
         'GREB1' = sample$GREB1,
         'GRIA4' = sample$GRIA1,
         'GSG2' = sample$GSG2,
         'GSN' = sample$GSN,
-        
-       
         'HORMAD1' = sample$HORMAD1,
         'HOXA2' = sample$HOXA2,
         'HPSE2' = sample$HPSE2,
-        'IFFO2' = sample$IFFO2,
-        
-        
-        
+        'IFFO2' = sample$IFFO2,       
         'INPP4B' = sample$INPP4B,
-     
         'KCNJ11' = sample$KCNJ11,
-      
         'KCNQ4' = sample$KCNQ4,
-      
         'KIF20A' = sample$KIF20A,
         'KIF2C' = sample$KIF2C,
-   
-        
         'KRT16' = sample$KRT16,
         'KY' = sample$KY,
         'LEMD1' = sample$LEMD1,
@@ -165,19 +131,14 @@ req =  list(
         'MBOAT1' = sample$MBOAT1,
         'MCM10' = sample$MCM10,
         'MELK' = sample$MELK,
-
         'MICALL1' = sample$MICALL1,
-        'MIEN1' = sample$MIEN1,
-        
+        'MIEN1' = sample$MIEN1,     
         'MLPH' = sample$MLPH,
-        
         'MPHOSPH6' = sample$MPHOSPH6,
         'MRGPRX3' = sample$MRGPRX3,
         'MYBL2' = sample$MYBL2,
-       
         'NAT1' = sample$NAT1,
         'NCAPG' = sample$NCAPG,
-        
         'NDC80' = sample$NDC80,
         'NDRG2' = sample$NDRG2,
         'NEFL' = sample$NEFL,
@@ -190,30 +151,22 @@ req =  list(
         'NTRK2' = sample$NTRK2,
         'NUDT8' = sample$NUDT8,
         'NUF2' = sample$NUF2,
-        'NUSAP1' = sample$NUSAP1,
-      
-        
+        'NUSAP1' = sample$NUSAP1,      
         'ORC6' = sample$ORC6,
         'OSR1' = sample$OSR1,
-        
-        'PADI2' = sample$PADI2,
-        
-        
-        
+        'PADI2' = sample$PADI2,      
         'PCSK6' = sample$PCSK6,
         'PGAP3' = sample$PGAP3,
         'PGR' = sample$PGR,
         'PLK1' = sample$PLK1,
         'PMAIP1' = sample$PMAIP1,
         'POLQ' = sample$POLQ,
- 
         'PPP1R14C' = sample$PPP1R14C,
         'PRC1' = sample$PRC1,
         'PRNP' = sample$PRNP,
         'PRR15' = sample$PRR15,
         'PTGER3' = sample$PTGER3,
         'PTPRZ1' = sample$PTPRZ1,
-        
         'RASGEF1C' = sample$RASGEF1C,
         'RBM24' = sample$RBM24,
         'RERG' = sample$RERG,
@@ -231,7 +184,6 @@ req =  list(
         'SCRG1' = sample$SCRG1,
         'SCUBE2' = sample$SCUBE2,
         'SDPR' = sample$SDPR,
-        
         'SFRP1' = sample$SFRP1,
         'SFT2D2' = sample$SFT2D2,
         'SGK3' = sample$SGK3,
@@ -239,17 +191,14 @@ req =  list(
         'SHCBP1' = sample$SHCBP1,
         'SIDT1' = sample$SIDT1,
         'SKA1' = sample$SKA1,
-   
         'SLC39A6' = sample$SLC39A6,
         'SLC44A4' = sample$SLC44A4,
-        
         'SLC7A8' = sample$SLC7A8,
         'SMYD1' = sample$SMYD1,
         'SOX10' = sample$SOX10,
         'SOX17' = sample$SOX17,
         'SPAG5' = sample$SPAG5,
         'SPARCL1' = sample$SPARCL1,
-  
         'SPRY2' = sample$SPRY2,
         'SRSF12' = sample$SRSF12,
         'STAC2' = sample$STAC2,
@@ -257,37 +206,26 @@ req =  list(
         'STC2' = sample$STC2,
         'SUSD3' = sample$SUSD3,
         'SYNM' = sample$SYNM,
-  
         'TBC1D9' = sample$TBC1D9,
         'TBX19' = sample$TBX19,
-        
         'TFCP2L1' = sample$TFCP2L1,
         'TFF1' = sample$TFF1,
         'TFF3' = sample$TFF3,
-        
         'TICRR' = sample$TICRR,
         'TINAGL1' = sample$TINAGL1,
         'TMEM220' = sample$TMEM220,
         'TMEM45B' = sample$TMEM45B,
-        
         'TPRG1' = sample$TPRG1,
         'TPX2' = sample$TPX2,
         'TRIM29' = sample$TRIM29,
         'TROAP' = sample$TROAP,
-        
-        
         'TRPV6' = sample$TRPV6,
-        
         'TSPAN1' = sample$TSPAN1,
         'TTK' = sample$TTK,
         'UBE2C' = sample$UBE2C,
         'UBE2T' = sample$UBE2T,
-        'VGLL1' = sample$VGLL1,
-        
-       
+        'VGLL1' = sample$VGLL1,      
         'WIF1' = sample$WIF1
-    
- 
         
         
       )
