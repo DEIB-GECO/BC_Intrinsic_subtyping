@@ -1,6 +1,6 @@
 # BC_Intrinsic_subtyping
 
-Here, we provide the R-code to connect to each one of the web services in charge of providing the intrinsic subtype of a breast cancer (BC) RNA-seq profile under evaluation. 
+Here, we provide the R-code to connect to each one of the web services in charge of providing the intrinsic subtype of a breast cancer (BC) RNA-seq profile under evaluation. (**DETAILS**)
 **Azure Machine Learning Studio (https://studio.azureml.net/).** 
 The code is authenticated to the Azure Machine Learning service with an API key and uses the RCurl (https://cran.r-project.org/package=RCurl), rjson (https://cran.r-project.org/package=rjson) and sjmisc (https://cran.r-project.org/package=sjmisc) libraries to make the request and to process suitably the returned JSON response. 
 
