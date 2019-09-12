@@ -238,7 +238,7 @@ body = enc2utf8(toJSON(req))
 api_key = "UfLlQHDpIMe1m5D0eX+nT5/08SQwkoiGCeoQKaezq0oRucY4eSsNRTUCazwfXsC4+h3h22zNIQRHuYO8S2saMw==" #  API key for the web service RSEM limma50_BWE
 
 h$reset()
-curlPerform(url = "https://ussouthcentral.services.azureml.net/workspaces/e5a11d5543d74f648ea577561c656273/services/f62b903eb7a5438f9521655059f5633d/execute?api-version=2.0&format=swagger",
+curlPerform(url = "https://ussouthcentral.services.azureml.net/workspaces/e5a11d5543d74f648ea577561c656273/services/4a3d155e144743558e693636b7bffd40/execute?api-version=2.0&format=swagger",
             httpheader=c('Content-Type' = "application/json", 'Authorization' = authz_hdr),
             postfields=body,
             writefunction = h$update,
