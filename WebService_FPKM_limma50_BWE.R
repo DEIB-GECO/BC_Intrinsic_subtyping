@@ -44,7 +44,6 @@ req =  list(
         'CCNA2' = sample$CCNA2,
         'CCNB2' = sample$CCNB2,
         'CDC20' = sample$CDC20,
-        'CDC25A' = sample$CDC25A,
         'CDC25C' = sample$CDC25C,
         'CDCA3' = sample$CDCA3,
         'CDCA8' = sample$CDCA8,
