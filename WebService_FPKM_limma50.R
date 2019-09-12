@@ -6,8 +6,8 @@ library("rjson")
 # Accept SSL certificates issued by public Certificate Authorities
 options(RCurlOptions = list(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
 
-h = basicTextGatherer()
-hdr = basicHeaderGatherer()
+h = basicTextGatherer()  # returns a closure which is used to cumulate text provided in callbacks from the libcurl engine when it reads the response from an HTTP request
+hdr = basicHeaderGatherer() #special case of previous function
 
 req =  list(
   Inputs = list(
