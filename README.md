@@ -1,4 +1,4 @@
-# BC Intrinsic subtyping with regularized multiclass Logistic Regression classifiers
+# Breast cancer Intrinsic subtyping with regularized multiclass Logistic Regression classifiers
 
 Here, we provide the R-code to connect to each one of the REST web services in charge of providing the intrinsic subtype of a breast cancer (BC) RNA-seq profile under evaluation. Each service is a classification process performed by a L1-L2-regularized multiclass logistic regression working on a specific gene signature of interest to assign one of the five breast cancer intrinsic subtypes (*Luminal A, Luminal B, Basal, Her2-enriched, or Normal-like*) given the corresponding gene expression data of the RNA-seq profile under study. 
 
