@@ -302,7 +302,7 @@ api_key = "J/SE8pjoaMFdqmAsw9R0ANNbLHKmSn2fS4fp8aWU0jqYtJdUuAT5fegTxpEbvUuSAkN+T
 authz_hdr = paste('Bearer', api_key, sep=' ')
 
 h$reset()
-curlPerform(url = "https://ussouthcentral.services.azureml.net/workspaces/e5a11d5543d74f648ea577561c656273/services/f62b903eb7a5438f9521655059f5633d/execute?api-version=2.0&format=swagger",
+curlPerform(url = "https://ussouthcentral.services.azureml.net/workspaces/e5a11d5543d74f648ea577561c656273/services/2f142c7e4cae47cea95937c04ed2522a/execute?api-version=2.0&format=swagger",
             httpheader=c('Content-Type' = "application/json", 'Authorization' = authz_hdr),
             postfields=body,
             writefunction = h$update,
