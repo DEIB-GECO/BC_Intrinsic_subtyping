@@ -1,12 +1,12 @@
 # BC_Intrinsic_subtyping
 
-Here, we provide the R-code to connect to each one of the web services in charge of providing the intrinsic subtype of a breast cancer (BC) RNA-seq profile under evaluation. (**DETAILS**)
-**Azure Machine Learning Studio (https://studio.azureml.net/).** 
-The code is authenticated to the Azure Machine Learning service with an API key and uses the RCurl (https://cran.r-project.org/package=RCurl), rjson (https://cran.r-project.org/package=rjson) and sjmisc (https://cran.r-project.org/package=sjmisc) libraries to make the request and to process suitably the returned JSON response. 
+Here, we provide the R-code to connect to each one of the REST web services in charge of providing the intrinsic subtype of a breast cancer (BC) RNA-seq profile under evaluation. Each service is a classification process performed by a L1-L2-regularized multiclass logistic regression working on a specific gene signature of interest to assign one of the five breast cancer intrinsic subtypes (*Luminal A, Luminal B, Basal, Her2-enriched, or Normal-like*) given the corresponding gene expression data of the RNA-seq profile under study. 
 
-Each service is a classification process performed by a L1-L2-regularized multiclass logistic regression working on a specific gene signature of interest to assign one of the five breast cancer intrinsic subtypes (Luminal A, Luminal B, Basal, Her2-enriched, or Normal-like) to each RNA-seq profile under study. Two are the available signature/gene sets of interest: limma50 and limma50_BWE. This latter one is a subset of the former one.
+For each supplied classifier, we set up and deployed in Azure Machine Learning Studio (https://studio.azureml.net/) a corresponding *Classic Machine Learning web service*, with its own default endpoint, that is its unique URL with an authorization key.
+The code here provided uses RCurl (https://cran.r-project.org/package=RCurl), rjson (https://cran.r-project.org/package=rjson) and sjmisc (https://cran.r-project.org/package=sjmisc) libraries to make the HTTP request and to process suitably the returned JSON response, and is authenticated to each Request-Response service with the corresponding API authorization key.
 
-Notice that two services are available for each signature: one is developed for RSEM RNA-seq profiles and the other one for FPKM RNA-seq profiles. In both cases, the user needs to pass the gene expression values of the signature of interest according to the required normalization procedure (RSEM or FPKM).
+Two are the available signature/gene sets of interest: limma50 and limma50_BWE. This latter one is a subset of the former one.
+Notice that two services are supplied for each signature: one is developed for RSEM RNA-seq profiles and the other one for FPKM RNA-seq profiles. In both cases, the user needs to pass the gene expression values of the signature of interest according to the required normalization procedure (RSEM or FPKM).
 
 A single function, *mlrBCsubFun*, must be called to perform BC intrinsic subtyping according to user proper choices.
 The function indeed requires as parameter the path of a csv dataset, including at least one sample and having the samples in each row and all the profiled genes or other data on the columns. Notice that the columns must include at least the genes of the signature of interest, indicated with the expected gene name, in case of aliases. 
